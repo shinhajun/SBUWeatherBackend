@@ -1,0 +1,4 @@
+[build]
+  command = "npm run build"  # 프런트엔드 빌드 명령 등 필요 시
+  publish = "dist"           # 프런트엔드 배포 폴더, 백엔드는 별도
+  functions = "netlify/functions"
